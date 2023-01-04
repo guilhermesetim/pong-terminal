@@ -1,0 +1,2 @@
+int getch();
+int kbhit();
