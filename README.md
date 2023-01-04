@@ -31,7 +31,7 @@ O projeto busca reproduzir no terminal do computador, o clássico *Pong*, jogo e
 # Como executar o projeto
 
 ## Requisitos
-Compilador g++
+Instalar o compilador g++
 
 ```bash
 # clonar repositório
@@ -41,7 +41,7 @@ git clone https://github.com/guilhermesetim/pong-terminal.git
 cd projetopong
 
 # compilar o projeto
-g++ *.cpp -o main.out
+g++ *.cpp src/*.cpp -o main.out
 
 # executar o projeto
 ./main.out
