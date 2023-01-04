@@ -35,7 +35,7 @@ Compilador g++
 
 ```bash
 # clonar repositório
-git clone do projeto
+git clone https://github.com/guilhermesetim/pong-terminal.git
 
 # entrar na pasta do projeto pelo terminal
 cd projetopong
