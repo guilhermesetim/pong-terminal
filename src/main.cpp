@@ -37,8 +37,8 @@ int main() {
       // movimentação raquetes
       if( kbhit() ) {
          char tecla = getch();
-         if ( tecla == 'w' ) jogador.subir();
-         if ( tecla == 's' ) jogador.descer();
+         if ( tecla == 65 ) jogador.subir();    // 65 = Seta para cima tabela ASCII
+         if ( tecla == 66 ) jogador.descer();   // 66 = Seta para baixo tabela ASCII
       }
 
       oponente.movimentoAutonomo();

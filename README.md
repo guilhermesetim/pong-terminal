@@ -9,8 +9,8 @@ O projeto busca reproduzir no terminal do computador, o clássico *Pong*, jogo e
 ![Jogo](assets/imagem1.png) 
 
 ## Como jogar
-- **Tecla 'w':** para mover a paleta para cima.
-- **Tecla 's':** para mover a paleta para baixo.
+- ⬆️ &x#2B07 **Seta para cima:** para mover a paleta para cima. &x2B07
+- ⬇️ **Seta para baixo:** para mover a paleta para baixo.
 
 
 ## Tecnologias utilizadas
