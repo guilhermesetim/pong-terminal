@@ -1,0 +1,4 @@
+# arquivos-objetos
+*.o
+# executaveis
+*.out
