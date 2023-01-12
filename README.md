@@ -9,13 +9,8 @@ O projeto busca reproduzir no terminal do computador, o clássico *Pong*, jogo e
 ![Jogo](assets/imagem1.png) 
 
 ## Como jogar
-### Jogador do lado esquerdao
 - **Tecla 'w':** para mover a paleta para cima.
 - **Tecla 's':** para mover a paleta para baixo.
-
-### Jogador do lado direito
-- **Tecla 'o':** para mover a paleta para cima.
-- **Tecla 'l':** para mover a paleta para baixo.
 
 
 ## Tecnologias utilizadas
@@ -26,7 +21,6 @@ O projeto busca reproduzir no terminal do computador, o clássico *Pong*, jogo e
 
 ## Plataformas
 - Unix (Linux);
-- Windows;
 
 # Como executar o projeto
 

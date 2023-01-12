@@ -7,6 +7,7 @@ private:
     int limiteTopo;
     int limiteBase;
     int tamanho = 7;
+    bool direcaoAuto = true;
     
 public:
     Raquete(int, std::vector<int>);
@@ -20,8 +21,11 @@ public:
     int getY() const;
     void setY(int);
     int getTamanho() const;
+    void movimentoAutonomo();
+    
 private:
     void posicionar(int, int);
     int verificarLimiteTopo(int);
     int verificarLimiteBase(int);
+    void direcaoAutonomo();
 };

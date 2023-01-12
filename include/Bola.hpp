@@ -3,8 +3,8 @@ class Bola {
 private:
     int x;
     int y;
-    int velocX = 2;
-    int velocY = 1;
+    int velocX = -2;
+    int velocY = -1;
     int initX;
     int initY;
     int raqJogador;

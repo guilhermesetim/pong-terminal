@@ -1,8 +1,8 @@
-#include "include/acaoTeclado.hpp"
-#include "include/Ambiente.hpp"
-#include "include/Placar.hpp"
-#include "include/Raquete.hpp"
-#include "include/Bola.hpp"
+#include "../include/acaoTeclado.hpp"
+#include "../include/Ambiente.hpp"
+#include "../include/Placar.hpp"
+#include "../include/Raquete.hpp"
+#include "../include/Bola.hpp"
 
 
 using namespace std;
@@ -39,9 +39,9 @@ int main() {
          char tecla = getch();
          if ( tecla == 'w' ) jogador.subir();
          if ( tecla == 's' ) jogador.descer();
-         if ( tecla == 'o' ) oponente.subir();
-         if ( tecla == 'l' ) oponente.descer();
       }
+
+      oponente.movimentoAutonomo();
 
       bola.movimento(jogador.getY(), oponente.getY());   
 

@@ -62,6 +62,29 @@ int Raquete::baseRaquete() {
     return _base;
 }
 
+void Raquete::movimentoAutonomo() {
+
+    this->direcaoAutonomo();
+
+    if(direcaoAuto) {
+        this->setY(getY()+3);
+    }
+    else {
+        this->setY(getY()-3);
+    }
+}
+
+void Raquete::direcaoAutonomo() {
+    if(baseRaquete() >= this->limiteBase) {
+        direcaoAuto = false;
+    }
+    if (getY() <= this->limiteTopo ) {
+        direcaoAuto = true;
+    }
+}
+
+
+
 int Raquete::getTamanho() const {
     return this->tamanho;
 }
