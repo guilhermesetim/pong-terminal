@@ -1,4 +1,3 @@
-OBJS = $(addprefix ./obj/, main.o src.o)
 
 all: compilar linkar
 
