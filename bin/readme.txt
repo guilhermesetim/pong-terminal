@@ -1,0 +1,1 @@
+diretório dedicado ao executável.

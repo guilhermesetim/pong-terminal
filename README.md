@@ -17,7 +17,7 @@ O projeto busca reproduzir no terminal do computador, o clássico *Pong*, jogo e
 - C++
 
 ## Paradigma
-- Programação Orietada ao Objeto
+- Programação Orientada ao Objeto
 
 ## Plataformas
 - Unix (Linux);

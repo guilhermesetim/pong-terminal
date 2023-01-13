@@ -1,0 +1,1 @@
+diretório dedicado aos arquivos-objetos
